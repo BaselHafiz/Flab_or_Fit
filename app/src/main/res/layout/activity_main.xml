@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bmacode17.flaborfit.MainActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout_weight"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="12dp"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#2EADF6">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            app:srcCompat="@drawable/weight" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_alignStart="@+id/textView3"
+            android:text="Do you even lift ?"
+            android:textColor="@android:color/background_light"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView1"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="11dp"
+            android:text="Weight Lifting"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/textView3"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rounded_corners"
+            android:backgroundTint="#20000000"
+            android:gravity="center"
+            android:text="20 sets"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="7dp"
+            android:layout_marginEnd="8dp"
+            android:text="30%"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout_cardio"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#9D6ED1">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            app:srcCompat="@drawable/heart" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView9"
+            android:layout_alignStart="@+id/textView7"
+            android:text="Run like crazy"
+            android:textColor="@android:color/background_light"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView6"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="7dp"
+            android:text="Cardio"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/imageView2"
+            android:layout_alignStart="@+id/textView7"
+            android:background="@drawable/rounded_corners"
+            android:backgroundTint="#20000000"
+            android:gravity="center"
+            android:text="5 Miles"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="7dp"
+            android:layout_marginEnd="8dp"
+            android:text="22%"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout_yoga"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="12dp"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#66C466">
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            app:srcCompat="@drawable/lotus" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView15"
+            android:layout_alignStart="@+id/textView13"
+            android:text="Namaste"
+            android:textColor="@android:color/background_light"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView10"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="8dp"
+            android:text="Youga"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/textView13"
+            android:layout_marginTop="9dp"
+            android:background="@drawable/rounded_corners"
+            android:backgroundTint="#20000000"
+            android:gravity="center"
+            android:text="1 Hour"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="7dp"
+            android:layout_marginEnd="8dp"
+            android:text="15%"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
